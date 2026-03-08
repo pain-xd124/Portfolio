@@ -1,16 +1,91 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-background:#0f0f0f;
+font-family:Poppins;
+background:#0d0d14;
 color:white;
-font-family:Arial;
-text-align:center;
 }
 
 header{
-padding:40px;
+display:flex;
+justify-content:space-between;
+padding:20px 50px;
 background:#111;
+position:sticky;
+top:0;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+}
+
+.hero p{
+margin:15px 0;
+}
+
+.btn{
+background:#ff2bd6;
+padding:12px 25px;
+border-radius:25px;
+text-decoration:none;
+color:white;
+}
+
+section{
+padding:80px 50px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+margin-top:40px;
 }
 
 video{
+width:100%;
 border-radius:10px;
-margin:20px;
+}
+
+.price-grid{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#151520;
+padding:30px;
+border-radius:12px;
+width:200px;
+box-shadow:0 0 20px #ff2bd650;
+}
+
+footer{
+background:#111;
+padding:30px;
+text-align:center;
 }
