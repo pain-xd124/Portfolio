@@ -1,0 +1,16 @@
+body{
+background:#0f0f0f;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+header{
+padding:40px;
+background:#111;
+}
+
+video{
+border-radius:10px;
+margin:20px;
+}
