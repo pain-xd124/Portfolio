@@ -5,9 +5,36 @@ box-sizing:border-box;
 }
 
 body{
+margin:0;
 font-family:Poppins;
-background:#0d0d14;
 color:white;
+
+background: linear-gradient(
+-45deg,
+#0f0c29,
+#302b63,
+#24243e,
+#ff2bd6
+);
+
+background-size:400% 400%;
+animation:gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
 }
 
 header{
